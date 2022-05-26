@@ -1,22 +1,25 @@
 package aukcja.model;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDate;
 
 @Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class Aukcja {
     private int idAukcja;
-    private String tytuł;
+    private String tytul;
     private String opis;
     private String kategoria;
     private double kwotaMinimalna;
     private double kwotaKupTeraz;
-    private String użytkownik;
+    private String uzytkownik;
     private LocalDate dataWystawienia;
-    private LocalDate dataZakończenia;
-    private int ilośćOdwiedzin;
+    private LocalDate dataZakonczenia;
+    private int iloscOdwiedzin;
 
 }

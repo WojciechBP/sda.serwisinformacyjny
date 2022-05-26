@@ -1,16 +1,19 @@
 package ocenaTransakcji.model;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 @Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class OcenaTransakcji {
 
     private int idOcenaTransakcji;
     private int idZakup;
-    private String komentarzSprzedającego;
-    private int ocenaKupującego;
-    private String komentarzKupującego;
+    private String komentarzSprzedajacego;
+    private int ocenaKupujacego;
+    private String komentarzKupujacego;
 
 }

@@ -1,12 +1,15 @@
 package zakup.model;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 @Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class Zakup {
     private int idZakup;
-    private int idUżytkownika;
+    private int idUzytkownika;
     private double Kwota;
 }

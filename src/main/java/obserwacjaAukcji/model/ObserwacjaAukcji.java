@@ -1,9 +1,12 @@
 package obserwacjaAukcji.model;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 @Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class ObserwacjaAukcji {
     private int idObserwacjiAukcji;

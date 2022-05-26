@@ -9,9 +9,9 @@ public class ZakupMockDao implements ZakupDao{
 
     public ZakupMockDao() {
 
-        Zakup.builder().idZakup(1).idUżytkownika(1).Kwota(20);
-        Zakup.builder().idZakup(2).idUżytkownika(2).Kwota(30);
-        Zakup.builder().idZakup(3).idUżytkownika(3).Kwota(40);
+        Zakup.builder().idZakup(1).idUzytkownika(1).Kwota(20);
+        Zakup.builder().idZakup(2).idUzytkownika(2).Kwota(30);
+        Zakup.builder().idZakup(3).idUzytkownika(3).Kwota(40);
     }
     @Override
     public Zakup getByID(int idZakup) {

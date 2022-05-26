@@ -11,9 +11,9 @@ public class OcenaTransakcjiMockDao implements OcenaTransakcjiDao {
 
     public OcenaTransakcjiMockDao() {
 
-        OcenaTransakcji.builder().idOcenaTransakcji(1).idZakup(1).komentarzSprzedającego("Dziękuje").ocenaKupującego(5).komentarzKupującego("Polecam");
-        OcenaTransakcji.builder().idOcenaTransakcji(2).idZakup(2).komentarzSprzedającego("Dziękuje").ocenaKupującego(4).komentarzKupującego("Neutralny");
-        OcenaTransakcji.builder().idOcenaTransakcji(3).idZakup(3).komentarzSprzedającego("Dziękuje").ocenaKupującego(2).komentarzKupującego("Nie polecam");
+        OcenaTransakcji.builder().idOcenaTransakcji(1).idZakup(1).komentarzSprzedajacego("Dziękuje").ocenaKupujacego(5).komentarzKupujacego("Polecam");
+        OcenaTransakcji.builder().idOcenaTransakcji(2).idZakup(2).komentarzSprzedajacego("Dziękuje").ocenaKupujacego(4).komentarzKupujacego("Neutralny");
+        OcenaTransakcji.builder().idOcenaTransakcji(3).idZakup(3).komentarzSprzedajacego("Dziękuje").ocenaKupujacego(2).komentarzKupujacego("Nie polecam");
     }
 
 

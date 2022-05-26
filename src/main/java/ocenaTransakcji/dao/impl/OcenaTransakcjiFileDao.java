@@ -11,8 +11,8 @@ public class OcenaTransakcjiFileDao implements OcenaTransakcjiDao{
     @Builder
     @Override
     public OcenaTransakcjiDao getByID(int idOcenaTransakcj) {
-        return (OcenaTransakcjiDao) OcenaTransakcji.builder().idOcenaTransakcji(1).idZakup(1).komentarzSprzedającego("Dziękuje za " +
-                "polecenie").ocenaKupującego(5).komentarzKupującego("Transakcja przebiegła prawidłowo.Polecam").build();
+        return (OcenaTransakcjiDao) OcenaTransakcji.builder().idOcenaTransakcji(1).idZakup(1).komentarzSprzedajacego("Dziękuje za " +
+                "polecenie").ocenaKupujacego(5).komentarzKupujacego("Transakcja przebiegła prawidłowo.Polecam").build();
     }
 
     @Override

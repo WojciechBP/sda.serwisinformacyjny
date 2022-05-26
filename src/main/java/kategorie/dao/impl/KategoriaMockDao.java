@@ -8,7 +8,7 @@ public class KategoriaMockDao implements KategoriaDao {
     private List<Kategoria> kategorie;
 
     public void Kategoria() {
-        Kategoria.builder().idKategoria(1).kategoria("Elektronika").nazwaOpisowa("nie wiem co wpisać");
+        Kategoria.builder().idKategoria(1).nazwa("Elektronika").nazwaOpisowa("nie wiem co wpisać");
 
     }
 

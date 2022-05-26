@@ -11,7 +11,7 @@ public class KategoriaFileDao implements KategoriaDao{
     @Builder
     @Override
     public Kategoria getByID(int idKategoria) {
-        return Kategoria.builder().idKategoria(1).kategoria("Elektronika").nazwaOpisowa("Nie wiem co wpisać").build();
+        return Kategoria.builder().idKategoria(1).nazwa("Elektronika").nazwaOpisowa("Nie wiem co wpisać").build();
     }
 
     @Override

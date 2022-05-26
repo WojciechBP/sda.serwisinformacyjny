@@ -1,13 +1,16 @@
 package kategorie.model;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 @Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class Kategoria {
     private int idKategoria;
-    private String kategoria;
+    private String nazwa;
     private String nazwaOpisowa;
 
 
